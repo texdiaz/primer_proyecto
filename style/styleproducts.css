@@ -77,6 +77,10 @@ h1 {
     text-decoration: none
 }
 
+.footer {
+    list-style: none;
+}
+
 @media (max-width:768px) {
     .main-header {
         display: none;
@@ -221,4 +225,8 @@ h1 {
         transition: color 0.4s ease;
     }
 }
+.footer{
+    list-style: none;
+}
+
 
