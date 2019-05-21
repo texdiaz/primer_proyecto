@@ -74,7 +74,7 @@ h1 {
     display: block;
     padding: 1.1rem 1.25rem;
     color: #fff;
-    text-decoration: none
+    text-decoration: none;
 }
 
 @media (max-width:768px) {
@@ -223,4 +223,7 @@ h1 {
 }
 .footer{
     list-style: none;
+}
+.footer li a{
+    text-decoration: none;
 }
