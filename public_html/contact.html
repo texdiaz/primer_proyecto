@@ -45,8 +45,31 @@
         </header>
     <main class="main">
         <article class="contenedor principaal-interior"> <!--Luego sera sustituido-->
-            <h2>Contato</h2>
-            <!--Aqui la info de los productos-->
+            <div>
+                <label for="nombre">Nombre:*</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+            </div>
+            <div>
+                <label for="nombre">Primer Apellido:*</label>
+                <input type="text" name="nombre" id="primer_apellido" placeholder="Primer Apellido" required>
+            </div> 
+            <div>
+                <label for="nombre">Segundo Apellido:*</label>
+                <input type="text" name="nombre" id="segundo_apellido" placeholder="Segundo Apellido" required>
+            </div>
+            <div>
+                <label for="telefono">Teléfono:*</label>
+                <input type="text" name="telefono" id="telefono" placeholder="Teléfono" required>
+            </div>
+            <div>
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" placeholder="email" required>
+            </div>  
+            <div>
+                <label for="comentario">Comentario:*</label>
+                <textarea id="comentario" name="comentario" placeholder="Comentario adicional" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
         </article> 
     </main>
     <footer>
