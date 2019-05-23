@@ -81,6 +81,29 @@ h1 {
     align-items: center;
 }
 
+.titulo-programa {
+    font-size: 1.5rem;
+}
+
+.descripcion-admin {
+    width: 100%;
+    margin: auto;
+}
+
+.title3 {
+    font-size: 1rem;
+    color: #4e94ab;
+}
+
+.img-descripcion, 
+.img-caracteristicas {
+    float: left;
+}
+
+.img-beneficios {
+    float: right;
+}
+
 .footer {
     background:linear-gradient(to left, #4e94ab, #4e94ab 40%, white);
     color: black;
@@ -188,9 +211,6 @@ h1 {
     justify-content: center;
     background:linear-gradient(to left, #4e94ab, #4e94ab 40%, white);
 }
-
-/* seccion productos */
-
 
 @media (max-width:768px) {
     .main-header {
